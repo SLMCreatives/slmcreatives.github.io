@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SLM Creatives: Medical Websites</title>
+    <title>SLM Creatives</title>
     <link rel="stylesheet" href="/stylestwo.css">
     <script src="https://kit.fontawesome.com/8e9824cebb.js" crossorigin="anonymous"></script>
     <style>
@@ -16,8 +16,8 @@
         <h1 class="site-title"><a href="/index.html">SLM Creatives</a></h1>
         <nav class="site-nav">
             <ul>
-                <li><a href="/pages/about.html">About</a></li>
-                <li><a href="/pages/projects.html">Projects</a></li>
+                <li><a href="/pages/about.html">Profile</a></li>
+                <li><a href="/pages/projects.html">Services</a></li>
                 <li><a href="/pages/pricing.html">Pricing</a></li>
                 <li><a href="/pages/blog.html">Newsletter <i class="fa fa-arrow-circle-o-up"></i></a></li>
             </ul>
@@ -27,7 +27,28 @@
         <div class="hero-text">
             <h1>Contact Page</h1>
         </div>
+        <div class="contact-info">
+            <h2>Phone Number</h2>
+            <p>+601121292383</p>
+        </div>
+        <div class="contact-info">
+            <h2>Email</h2>
+            <p>sulaiman@slmcreatives.com</p>
+        </div>
     </section>
+
+    <button class="button-form-open" onclick="toggleForm()">Get Started</button>
+
+    <form class="contact-form">
+        <h2>Contact Form</h2>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" required></textarea>
+        <button type="submit">Submit</button>
+    </form>
 
 
 
@@ -39,7 +60,7 @@
     <footer>
         <div class="links">
             <ul class="footer-list">
-                <li class="footer-item"><a href="/pages/projects.html">Projects</a></li>
+                <li class="footer-item"><a href="/pages/projects.html">Services</a></li>
                 <li class="footer-item"><a href="/pages/pricing.html">Pricing</a></li>
                 <li class="footer-item"><a href="/pages/blog.html">Insight</a></li>
                 <li class="footer-item"><a href="/pages/contact.html">Contact</a></li>
@@ -50,6 +71,7 @@
     </footer>
     
 </body>
+   <script src="funcs.js"></script>
    <script>
 
    </script>
