@@ -19,10 +19,13 @@ body {
     font-family: Lato, sans-serif;
     font-size: 1em;
     line-height: 1.5em;
+    max-width: 1480px;
+    min-width: 470px;
 
     list-style: none;
     background-image: url(bgimg3.jpg);
     background-size: cover;
+    text-wrap:balance;
 }
 
 a {
@@ -51,7 +54,6 @@ header {
 
 header h1 {
     font-weight: 400;
-    padding: 10px;
 }
 
 header h1:hover {
@@ -103,6 +105,8 @@ span {
     text-decoration: none;
     list-style: none;
     color: gray;
+    display: flex;
+    flex-wrap: nowrap;
 }
 
 .site-nav ul li:last-child {
@@ -110,7 +114,7 @@ span {
     padding: 0.3em 0.5em;
     width: calc(min-content + 5px);
     background-image: var(--color-primary);
-    background-clip: text;
+    background-clip:border-box;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     border-radius: 5px;
@@ -125,31 +129,10 @@ span {
 
 }
 
-/* .site-nav ul li:last-child::after {
-    content: "";
-    position: absolute;
-    background-color: rgba(255, 255, 255, 0.75);
-    border-radius: 10px;
-    inset: 0;
-    z-index: -1;
-    width: 110%;
-    height: 120%;
-    transform: translate(-7.5px, -5px);
-    transition: 0.5s ease-out;
-    opacity: 1;
-    cursor: pointer;
-}
-
-.site-nav ul li:last-child:hover::after {
-    opacity: 0.1;
-    cursor: pointer;
-    box-shadow: 0 0 5px 5px rgb(255, 255, 255);
-} */
-
-
 .site-nav li {
     list-style: none;
     display: inline-block;
+    overflow-wrap: normal;
     margin: 0 20px 0 0;
 }
 
@@ -178,6 +161,7 @@ span {
     height: 100%;
     padding: 0 0;
     text-align: left;
+    text-wrap: balance;
 
 }
 
@@ -226,7 +210,7 @@ div {
     height: 5px;
     font-size: 0.7em;
     position: relative;
-    bottom: 1em;
+    bottom: 0em;
     color: rgb(140, 138, 138);
 }
 

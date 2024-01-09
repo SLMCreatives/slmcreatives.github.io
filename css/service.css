@@ -1,6 +1,6 @@
 .container {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: wrap;
     justify-content: left;
     align-items:top;
@@ -25,7 +25,7 @@ img {
 
 .big-container {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: nowrap;
     flex-basis: content;
     justify-content: center;
@@ -34,4 +34,29 @@ img {
     padding: 50px 0;
     width: 100%;
     column-gap: 50px
+}
+
+.grid-three {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: top;
+    margin: 0;
+    padding-block-end: 50px;
+    width: 100%;
+    text-wrap:balance;
+
+}
+
+.grid-three > * {
+    flex: 1 0 350px;
+    margin: 0;
+    padding-inline-end: 20px;
+    text-align: left;
+    text-wrap: balance;
+}
+
+.grid-three p {
+    line-height: 1.5em;
+    font-weight: 100;
 }
