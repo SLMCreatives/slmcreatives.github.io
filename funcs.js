@@ -10,7 +10,7 @@ function toggleForm() {
     if (!x.style.display || x.style.display === "none") {
         x.style.display = "flex",
         x.style.opacity = "1", 
-        y.style.height = "100vh"
+        y.style.height = "200vh"
         ;
     } else {
         x.style.display = "none",
