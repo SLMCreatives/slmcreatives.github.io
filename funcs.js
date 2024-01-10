@@ -7,11 +7,13 @@ function comingSoon() {
 
 function toggleForm() {
 
-    if (!x.style.opacity || x.style.opacity === "0") {
+    if (!x.style.display || x.style.display === "none") {
+        x.style.display = "flex",
         x.style.opacity = "1", 
         y.style.height = "100vh"
         ;
     } else {
+        x.style.display = "none",
         x.style.opacity = "0",
         y.style.height = "0vh"
         ;
