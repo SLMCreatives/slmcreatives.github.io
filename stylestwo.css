@@ -1,6 +1,7 @@
 :root {
     --color-primary: linear-gradient(-43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
-    -webkit-font-smoothing: antialiased;    
+    -webkit-font-smoothing: antialiased;
+    scroll-behavior: smooth;    
 }
 
 *, *::before, *::after {
@@ -435,25 +436,64 @@ q {
     font-size: min(1.5em, 5vw);
     margin: 10px auto;
     padding: min(20px, 2vw) auto;
-    
+
+}
+
+.contact-form-container {
+    display: flex;
+    flex-direction: column;
+    transition: opacity 5000ms ease-in-out;
 
 }
 
 .contact-form {
-    display: flex;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     flex-direction: column;
     row-gap: 20px;
     justify-content: center;
     align-items: flex-start;
-    margin: 0 auto;
+    margin: 20px auto;
     padding: 30px 20px;
     width: 360px;
-    height: 100%;
+    height: fit-content;
     column-gap: 50px;
     text-align: left;
     background: rgb(239, 239, 239);
     border-radius: 12px;
-/*     box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.475), 0 6px 20px 0 rgba(255, 255, 255, 0.444); */
+    z-index: 10;
+    opacity: 0;
+    transition-duration: opacity 3000ms;
+
+}
+
+.button-form-open::after,
+.contact-overlay {
+    content: '';
+    position: fixed;
+    z-index: 1;
+    opacity: 0.85;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 0;
+    background: rgb(0, 0, 0);
+    transition: height 0.5s ease-in-out;
+}
+
+}
+
+.fa-close {
+    cursor: pointer;
+    position: fixed;
+    left: 380px;
+    top: 10px;
+    background-color: darkgray !important;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .contact-form:hover {
@@ -530,4 +570,5 @@ label {
     margin: 0;
     font-weight: 700;
 }
+
 
