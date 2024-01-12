@@ -20,31 +20,41 @@ function toggleForm() {
     }
 }
 
+const formzz = document.querySelector('.contact-form');
+
+
+
+
+formzz.addEventListener('submit', function(e){
+    e.preventDefault();
+    onSubmit();
+})
+
+
 function onSubmit() {
-/*   Email.send({
-    SecureToken : "a0736a0e-3ef5-474d-8eb6-20dfda312748",
+let formData = {
+    name: document.getElementById('name').value,
+    email: document.getElementById('email').value,
+    subject: document.getElementById('subject').value,
+    message: document.getElementById('message').value,
+};
+Email.send({
+    SecureToken : "1b91d435-6949-4630-940a-b0afd0385060",
     To : 'sulaiman@slmcreatives.com',
-    From : "namialus.shafiq@gmail.com",
-    Subject : "This is the subject",
-    Body : "And this is the body"
+    From : 'sulaiman@slmcreatives.com',
+    Subject : "Soc Med Collaboration from SLM Creatives Website",
+    Body : `Name: ${formData.name} <br> Email: ${formData.email} <br> Subject: ${formData.subject} <br> Message: ${formData.message}`
 }).then(
   message => alert(message),
-  console.log("suceess")
-);
-} */
+  console.log("suceess"),
+  toggleForm()
+);    
 
-Email.send({
-    Host : "smtp.elasticemail.com",
-    Username : "sulaiman@slmcreatives.com",
-    Password : "E76F6D91BDFA8F4F6812C8401284FCDD2F71",
-    To : 'sulaiman@slmcreatives.com',
-    From : "you@isp.com",
-    Subject : "This is the subject",
-    Body : "And this is the body"
-}).then(
-  message => alert(message)
-);
+formzz.reset();
+console.log("success", formData.email);
+
 }
+
 
 
 
