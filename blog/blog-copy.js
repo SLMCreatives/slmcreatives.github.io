@@ -93,7 +93,54 @@ let blog = [
 
 
         `
-    }
+    } , {
+        id: "3",
+        title: `
+        <p> #Understanding SEO </p>
+
+        <h1>Demystifying SEO: A Beginner's Guide to Ranking in Search Engines</h1>
+        
+        <h3>By: <strong>Sulaiman Shafiq</strong> | Date Published : 13 Jan 2023</h3>  
+        `,
+        content: `
+        <p>In the vast landscape of the internet, achieving visibility is paramount for any business or website. This is where SEO, or Search Engine Optimization, comes into play. Understanding the basics of SEO is like unlocking the secret code to rise in search engine rankings and attract the right audience.</p>
+
+        <h2>What is SEO?</h2>
+        <p>SEO is a digital marketing strategy that focuses on enhancing a website's visibility in search engine results. It involves optimizing various elements on your website to align with the algorithms that search engines use to determine relevance and authority.</p>
+    
+        <h2>How Does SEO Work?</h2>
+        <p>Search engines, like Google, use complex algorithms to analyze and rank websites. These algorithms consider factors such as keyword relevance, website structure, user experience, and backlinks. SEO works by strategically optimizing these elements to signal to search engines that a website is valuable and relevant to users.</p>
+    
+        <h2>Basic Steps to Rank in SEO:</h2>
+    
+        <h2>1. Keyword Research:</h2>
+        <p>Start by identifying the keywords relevant to your business or content. Use tools like Google Keyword Planner to discover phrases your audience is searching for.</p>
+    
+        <h2>2. On-Page Optimization:</h2>
+        <p>Optimize your website's pages by incorporating selected keywords in title tags, meta descriptions, headers, and throughout the content. Ensure a clean and user-friendly design for an enhanced experience.</p>
+    
+        <h2>3. Quality Content Creation:</h2>
+        <p>Create valuable and engaging content that addresses the needs of your target audience. Quality content not only attracts visitors but also encourages other websites to link to yours, boosting your authority.</p>
+    
+        <h2>4. Link Building:</h2>
+        <p>Build a network of quality backlinks from reputable websites. These links act as endorsements, signaling to search engines that your content is trustworthy and authoritative.</p>
+    
+        <h2>5. Mobile Optimization:</h2>
+        <p>Optimize your website for mobile devices. With the increasing use of smartphones, search engines prioritize mobile-friendly websites in their rankings.</p>
+    
+        <h2>6. Page Speed Optimization:</h2>
+        <p>Improve your website's loading speed. Faster-loading pages provide a better user experience and are favored by search engines.</p>
+    
+        <p>By grasping these fundamental steps, you embark on a journey to boost your website's visibility in search engine results. SEO is an ongoing process, and staying informed about industry trends is key to maintaining a strong online presence.</p>
+    
+        <p>Ready to elevate your website's ranking? As a seasoned digital marketing freelancer, I specialize in SEO strategies that can propel your website to new heights. Let's discuss how we can optimize your online presence.</p>
+        
+        <h2>Contact me today to embark on your digital transformation journey. Your next project begins with a click: 
+
+        <a class="button-form-open button-read" onclick="toggleForm()" > Contact Form! <i class="fa fa-arrow-right"></i> </a>
+
+        `
+}
     ];
 
 
