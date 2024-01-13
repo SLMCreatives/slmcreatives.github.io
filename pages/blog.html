@@ -17,9 +17,10 @@
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
-
+  
   gtag('config', 'G-4S5TW94WM7');
 </script>
+<script type="module" src="/blog/blog.js"></script>
 
 <body>
     <header>
@@ -36,6 +37,27 @@
     <section class="hero">
         <div class="hero-text">
             <h1>SLM Insight & Highlights</h1>
+        </div>
+
+        <div class="blog" id="blog-container">
+        </div>
+
+        <div class="contact-form-container">
+            <div class="contact-overlay" onclick="toggleForm()"></div>
+            <form class="contact-form">
+                <h2>
+                    Contact Form <!-- <i class="fa-solid fa-close" onclick="toggleForm()"></i> -->
+                </h2>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="subject">Subject</label>
+                <input type="text" id="subject" name="subject" required></input>
+                <label for="message">Your Story:</label>
+                <textarea id="message" name="message" required></textarea>
+                <button type="submit">Submit</button>
+            </form>
         </div>
     </section>
 
@@ -60,7 +82,6 @@
     </footer>
     
 </body>
-   <script>
+<script src="/funcs.js"></script>
 
-   </script>
 </html>
