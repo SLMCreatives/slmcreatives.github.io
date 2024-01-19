@@ -14,7 +14,7 @@ blog.forEach((blog) => {
 });
 
     const readButton = document.querySelectorAll("#read-more-button");
-    const backButton = `<a href="/pages/blog.html" class="button-read"><i class="fa fa-arrow-left"></i> Back to Blog </a>`
+    const backButton = `<a href="/blog" class="button-read"><i class="fa fa-arrow-left"></i> Back to Blog </a>`
 
     readButton.forEach((readButton) => {
         readButton.addEventListener("click", () => {
@@ -27,7 +27,7 @@ blog.forEach((blog) => {
             blogContainer.innerHTML = `${backButton} ${blogR[xIndex].title} ${blogR[xIndex].content}`;
 
 
-const url = new URL('https://slmcreatives.com/pages/blog.html?bid=1');
+const url = new URL('https://slmcreatives.com/blog?bid=1');
 const params = new URLSearchParams(url.search);
 params.set('bid', 2);
 console.log(params);

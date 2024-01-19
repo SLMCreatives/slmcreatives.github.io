@@ -23,23 +23,42 @@
 
 <body>
     <header>
-        <h1 class="site-title"><a href="/index.html">SLM Creatives</a></h1>
+        <h1 class="site-title"><a href="./">SLM Creatives</a></h1>
         <nav class="site-nav">
             <ul>
-                <li><a href="/pages/about.html">Profile</a></li>
-                <li><a href="/pages/services.html">Services</a></li>
-                <li><a href="/pages/pricing.html" class="active">Pricing</a></li>
-                <li><a href="/pages/contact.html">Collaborate <i class="fa fa-arrow-circle-o-up"></i></a></li>
+                <li><a href="/about">Profile</a></li>
+                <li><a href="/services">Services</a></li>
+                <li><a href="/projects">Portfolio</a></li>
+                <li><a href="/contact">Collaborate <i class="fa fa-arrow-circle-o-up"></i></a></li>
             </ul>
         </nav>
     </header>
     <section class="hero">
         <div class="hero-text">
-            <h1>Pricing Page</h1>
-            <p>Coming soon. <br> For more information, <a href="/pages/contact.html" onclick="window.location.href='/pages/contact.html'"><em>contact</em></a> us.
-            </p>
+            <h1>Contact Page</h1>
+        </div>
+        <div class="contact-info">
+            <h2>Phone Number</h2>
+            <p>+601121292383</p>
+        </div>
+        <div class="contact-info">
+            <h2>Email</h2>
+            <p>sulaiman@slmcreatives.com</p>
         </div>
     </section>
+
+    <button class="button-form-open" onclick="toggleForm()">Get Started</button>
+
+    <form class="contact-form">
+        <h2>Contact Form</h2>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" required></textarea>
+        <button type="submit">Submit</button>
+    </form>
 
 
 
@@ -51,10 +70,10 @@
     <footer>
         <div class="links">
             <ul class="footer-list">
-                <li class="footer-item"><a href="/pages/services.html">Services</a></li>
-                <li class="footer-item"><a href="/pages/projects.html">Portfolio</a></li>
-                <li class="footer-item"><a href="/pages/blog.html">Insight</a></li>
-                <li class="footer-item"><a href="/pages/contact.html">Collaborate</a></li>
+                <li class="footer-item"><a href="/services">Services</a></li>
+                <li class="footer-item"><a href="/projects">Portfolio</a></li>
+                <li class="footer-item"><a href="/blog">Insight</a></li>
+                <li class="footer-item"><a href="/contact">Collaborate</a></li>
             </ul>
             <div class="social-icons"><i class="fa fa-twitter"></i><i class="fa fa-facebook"></i><i class="fa fa-instagram"></i></div>
         </div>
@@ -62,6 +81,7 @@
     </footer>
     
 </body>
+   <script src="funcs.js"></script>
    <script>
 
    </script>
