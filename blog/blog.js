@@ -25,7 +25,7 @@ blog.forEach((blog) => {
             console.log(xIndex);
             window.scrollTo(0, 300);    
             blogContainer.innerHTML = `${backButton} ${blogR[xIndex].title} ${blogR[xIndex].content}`;
-const url = new URL('https://slmcreatives.com/blog.html?bid=1');
+const url = new URL('https://slmcreatives.com/pages/blog.html?bid=1');
 const params = new URLSearchParams(url.search);
 params.set('bid', 2);
 
