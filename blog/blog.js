@@ -30,5 +30,7 @@ blog.forEach((blog) => {
             window.history.pushState(stateObj,
                 `${blogR[xIndex].title}`, `/blog?id=${blogR[xIndex].id}`);
 
+            console.log("yes!");
+
         });
     });
