@@ -121,6 +121,8 @@ div {
 footer {
     padding-block: 50px;
     display: block;
+    position: absolute;
+    bottom:0;
 /*     border: 1px solid rgb(140, 138, 138);
  */
 }
