@@ -30,9 +30,9 @@
         <nav class="site-nav">
             <ul>
                 <li><a href="/about">About</a></li>
-                <li><a href="/services" class="active">Services</a></li>
-                <li><a href="/pricing">Pricing</a></li>
-                <li><a href="/contact">Collaborate <i class="fa fa-arrow-circle-o-up"></i></a></li>
+                <li><a href="/webdev" class="active">Web Dev</a></li>
+                <li><a href="/projects">Portfolio</a></li>
+                <li><a href="/blog">Insight <i class="fa fa-arrow-circle-o-up"></i></a></li>
             </ul>
         </nav>
     </header>
@@ -47,36 +47,75 @@
             <h2>My Services</h2>
             <ul class="featured-projects-list">
                 <li class="featured-project-items">
-                    <p class="fp-title"><a href="/socmed" class="fp-title-item">Social Media Management <i class="fa fa-solid fa-square-arrow-up-right"></i></a> , For strategic consistent content posting on FB and IG.</p>
-                <li class="featured-project-items" onclick="comingSoon()">
-                    <p class="fp-title"><a href="" class="fp-title-item">Website Design & Development <i class="fa fa-solid fa-square-arrow-up-right"></i></a> , For building trust and industry recognition.</p>
+                    <p class="fp-title"><a href="#socmed" class="fp-title-item">Social Media Management <i class="fa fa-solid fa-square-arrow-up-right"></i></a> , For strategic consistent content posting on FB and IG.</p>
+                <li class="featured-project-items">
+                    <p class="fp-title"><a href="#website" class="fp-title-item">Website Design & Development <i class="fa fa-solid fa-square-arrow-up-right"></i></a> , For building trust and industry recognition.</p>
                 </li>
                 <li class="featured-project-items" onclick="comingSoon()">
-                    <p class="fp-title"><a href="" class="fp-title-item">Creative Copy-Writing <i class="fa fa-solid fa-square-arrow-up-right"></i></a> , For connecting your brand to your audience.</p>
-                </li>
-                <li class="featured-project-items" onclick="comingSoon()">
-                    <p class="fp-title"><a href="" class="fp-title-item">Ad Campaign Management<i class="fa fa-solid fa-square-arrow-up-right"></i></a> , For reaching your maximum target audience with minimal expenditure.</p>
+                    <p class="fp-title"><a href="#blog" class="fp-title-item"> Blog Writing for SEO Rank <i class="fa fa-solid fa-square-arrow-up-right"></i></a> , For connecting your brand to your audience.</p>
                 </li>
             </ul>
         </div>
-        <h3> <em> <a href="/contact">Collaborate</a> </em>to collaborate. </h3>
 
-    </section>
+        <div class="socmed">
+            <i class="fa-solid fa-photo-film"></i>
+            <h2>Professional Content Creation and Stategic Content Posting</h2>
+            <p></p>
+        </div>
+
+        <div class="grid-three">
+            <div>
+                <h1>Client Onboarding</h1>
+                <p>
+                    If you wish to collaborate with me, please fill out the form below. I will schedule a call with you at the soonest possible time. During the call, I will answer any of your questions you have for me, and will provide a short price list of what I can do for you.
+                </p>
+            
+                <a class="button-form-open button-read" onclick="toggleForm()" >Client Onboarding <i class="fa fa-arrow-right"></i> </a>
+            </div>
+            
+            <div>
+                <h1>Agency Collaboration</h1>
+                <p>
+                    If you are an agency and want to outsource your projects, send me a dm on WhatsApp and we can discuss the details further.
+                </p>
+            
+                <a class="button-form-open button-read" onclick="toggleForm()" >Collaborate With Me! <i class="fa fa-arrow-right"></i> </a>
+            
+            </div>
+        </div>
+        
+        
+        <div class="contact-form-container">
+            <div class="contact-overlay" onclick="toggleForm()"></div>
+            <form class="contact-form">
+                <h2>
+                    Contact Form <!-- <i class="fa-solid fa-close" onclick="toggleForm()"></i> -->
+                </h2>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="subject">Subject</label>
+                <input type="text" id="subject" name="subject" required></input>
+                <label for="message">Your Story:</label>
+                <textarea id="message" name="message" required></textarea>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+
     <footer>
         <div class="links">
             <ul class="footer-list">
-                <li class="footer-item"><a href="/services">Services</a></li>
+                <li class="footer-item"><a href="/webdev">Web Dev</a></li>
                 <li class="footer-item"><a href="/pricing">Pricing</a></li>
                 <li class="footer-item"><a href="/blog">Insight</a></li>
                 <li class="footer-item"><a href="/contact">Collaborate</a></li>
             </ul>
             <div class="social-icons"><i class="fa fa-twitter"></i><i class="fa fa-facebook"></i><i class="fa fa-instagram"></i></div>
         </div>
-        <p class="copyright">&copy; 2023 SLM Creatives. All rights reserved. Made with <i class="fa fa-heart"></i> in Malaysia.</p>
+        <p class="copyright">&copy; 2024 SLM Creatives. All rights reserved. Made with <i class="fa fa-heart"></i> in Malaysia.</p>
     </footer>
     
 </body>
-   <script>
-
-   </script>
+     <script src="/funcs.js"></script>
 </html>
