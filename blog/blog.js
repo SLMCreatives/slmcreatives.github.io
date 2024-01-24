@@ -14,7 +14,7 @@ blog.forEach((blog) => {
 });
 
     const readButton = document.querySelectorAll("#read-more-button");
-    const backButton = `<a href="/blog" class="button-read"><i class="fa fa-arrow-left"></i> Back to Blog </a>`
+    const backButton = `<a Portfolio href="/blog" class="button-read"><i class="fa fa-arrow-left"></i> Back to Blog </a>`
 
     readButton.forEach((readButton) => {
         readButton.addEventListener("click", () => {
