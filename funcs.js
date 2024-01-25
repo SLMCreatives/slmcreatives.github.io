@@ -33,8 +33,10 @@ formzz.addEventListener('submit', function(e){
 
 function onSubmit() {
 let formData = {
-    name: document.getElementById('name').value,
+    firstName: document.getElementById('first-name').value,
+    secondName: document.getElementById('second-name').value,
     email: document.getElementById('email').value,
+    phone: document.getElementById('phone').value,
     subject: document.getElementById('subject').value,
     message: document.getElementById('message').value,
 };
@@ -43,10 +45,11 @@ Email.send({
     To : 'sulaiman@slmcreatives.com',
     From : 'sulaiman@slmcreatives.com',
     Subject : "Soc Med Collaboration from SLM Creatives Website",
-    Body : `Name: ${formData.name} <br> Email: ${formData.email} <br> Subject: ${formData.subject} <br> Message: ${formData.message}`
+    Body : `Name: ${formData.firstName} + ${formData.secondName} <br> Email: ${formData.email} <br> Phone: ${formData.phone} <br> Subject: ${formData.subject} <br> Message: ${formData.message}`
 }).then(
   message => alert(message),
   console.log("suceess"),
+  formzz.reset(),
   toggleForm()
 );    
 

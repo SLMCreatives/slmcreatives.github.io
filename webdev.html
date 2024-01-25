@@ -40,15 +40,15 @@
     <section class="hero">
         
     <div class="hero-text">
-        <h1>Website Development & Design</h1> 
+        <h1>Be <span>Profesional</span>, Be <span>Unique</span></h1> 
         <p>Get your <span>profesional website</span> that everything you need to build trust and grow your community.<br>
-            <a href="#pricing" class="button-read">Discover Pricing <i class="fa fa-arrow-right"></i></a><br> 
+            <a href="#package" class="button-read">Discover Packages <i class="fa fa-arrow-right"></i></a><br> 
             <a class="button-form-open button-read" onclick="toggleForm()" >Collaborate With Me! <i class="fa fa-arrow-right"></i> </a>
         </p>  
         
     </div>
 
-    <h1>Professional & Modern Design</h1>
+    <h1>Building Your First Corporate Website</h1>
 
     <div class="grid-three">
         <div>
@@ -180,16 +180,22 @@
             <div class="contact-overlay" onclick="toggleForm()"></div>
             <form class="contact-form">
                 <h2>
-                    Contact Form <!-- <i class="fa-solid fa-close" onclick="toggleForm()"></i> -->
+                    Collaborate with Me! <!-- <i class="fa-solid fa-close" onclick="toggleForm()"></i> -->
                 </h2>
-                <label for="name">Name:</label>
-                <input type="text" id="name" name="name" required>
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email" required>
-                <label for="subject">Subject</label>
-                <input type="text" id="subject" name="subject" required></input>
-                <label for="message">Your Story:</label>
-                <textarea id="message" name="message" required></textarea>
+                <div class="name-container">
+                <label for="name">First Name:</label>
+                <input type="text" id="first-name" name="first-name" placeholder="Amin" required>
+                <label for="name">Second Name:</label>
+                <input type="text" id="second-name" name="second-name" placeholder="Rahman" required>
+                </div>
+                <label for="email">Email Address</label>
+                <input type="email" id="email" name="email" placeholder="youremail@example.com" required>
+                <label for="phone-number">Phone Number</label>
+                <input type="tel" id="phone" name="phone" placeholder="(+60-123-456-789)" required>
+                <label for="subject">Company Name</label>
+                <input type="text" id="subject" name="subject" placeholder="SLM Creatives" required></input>
+                <label for="message">Your Request</label>
+                <textarea id="message" name="message" placeholder="Give me a brief description of your problem that needs a solution" required></textarea>
                 <button type="submit">Submit</button>
             </form>
         </div>

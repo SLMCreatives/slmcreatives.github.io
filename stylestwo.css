@@ -447,7 +447,7 @@ q {
     align-items: flex-start;
     margin: 20px auto;
     padding: 30px 20px;
-    width: 360px;
+    width: 560px;
     height: fit-content;
     column-gap: 50px;
     text-align: left;
@@ -456,6 +456,22 @@ q {
     z-index: 10;
     opacity: 0;
     transition: opacity 5000ms ease-in-out;
+}
+
+.name-container {
+    display: grid;
+    grid-template-rows: 0.3fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-flow: column;
+    grid-gap: 20px;
+    column-gap: 20px;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    text-align: left;
+    text-wrap: balance;
+
 }
 
 .button-form-open::after,
@@ -504,7 +520,7 @@ q {
 }
 
 textarea {
-    line-height-step: 1.5em;
+    height: 100px;
 }
 
 .contact-form input:hover, .contact-form textarea:hover {
@@ -520,8 +536,9 @@ label {
     font-size: 0.8em;
     font-family: Lato, sans-serif;
     font-weight: 400;
-    padding: 0 auto;
+    padding: 0;
     margin: 0 0 -10px 0;
+    word-wrap: normal;
 }
 
 .contact-form textarea:focus, .contact-form input:focus {
@@ -559,5 +576,6 @@ label {
     margin: 0;
     font-weight: 700;
 }
+
 
 
