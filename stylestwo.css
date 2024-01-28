@@ -164,6 +164,7 @@ span {
     padding: 0 0;
     text-align: left;
     text-wrap: balance;
+    align-self: flex-start;
 
 }
 
@@ -578,5 +579,70 @@ label {
     font-weight: 700;
 }
 
+.levels-nav {
+    display: flex;
+    width: 90vw;
+    flex-direction: row;
+    column-gap: 20px;
+    overflow: auto;
+    height: auto;
+    margin: 0 auto;
+    padding: 0;
+}
 
 
+.grid-three {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-gap: 10px;
+    column-gap: 10px;
+}
+
+.levels-container {
+    margin-block: 25vh;
+}
+
+small {
+    scroll-margin-top : 10vw;
+}
+
+.sticky {
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    align-self: flex-start;
+}
+
+.shirt-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    border-radius: 5px;
+    width: 100%;
+    padding: 10px;
+}
+
+.shirt {
+    width: 60%;
+    height: 100%;
+    object-fit: contain;
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: 0 auto;
+}
+.shirt-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    margin: 10px;
+    border-radius: 5px;
+    width: 100%;
+    padding: 10px;
+}
