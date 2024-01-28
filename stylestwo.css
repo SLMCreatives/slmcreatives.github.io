@@ -626,8 +626,6 @@ small {
 }
 
 .shirt {
-    width: 60%;
-    height: 100%;
     object-fit: contain;
     position: relative;
     top: 0;
@@ -635,14 +633,76 @@ small {
     right: 0;
     bottom: 0;
     margin: 0 auto;
+    width: 30%;
+    height: 100%;
 }
+
 .shirt-info {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-around;
     align-items: left;
     margin: 10px;
     border-radius: 5px;
-    width: 100%;
+    width: 50%;
     padding: 10px;
+}
+
+.shirt-info h3 {
+    margin: 0;
+    font-weight: 500;
+}
+
+.shirt-info button {
+    background: var(--color-primary);
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 6px;
+    padding: 10px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: bottom 1s ease-in-out;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30%;
+    height: 40px;
+    padding: 0 auto;
+    text-transform: uppercase;
+    font-display: swap;
+}
+
+
+
+@media screen and (width < 700px) {
+    .shirt {
+    width: 100%;
+    }
+
+    .shirt-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 10px;
+        border-radius: 5px;
+        width: 100%;
+        padding: 10px;
+    }
+
+    .shirt-info {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: left;
+        margin: 10px;
+        border-radius: 5px;
+        width: 100%;
+        padding: 0;
+    }
+
+    .shirt-info p {
+        font-size: 0.8em;
+    }
+    
 }
