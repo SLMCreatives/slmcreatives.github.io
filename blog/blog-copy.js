@@ -7,7 +7,7 @@ let blog = [
 
         <h1>Unveiling the Blueprint: The Crucial Role of a Professional Website in Elevating Your Construction Business</h1>
         
-        <h3>By: <strong>Sulaiman Shafiq</strong> | Date Published : 07 Jan 2023</h3>        `  
+        <h3>By: <strong>Sulaiman Shafiq</strong> | Date Published : 07 Jan 2024</h3>        `  
         ,
         content: `
         
@@ -50,7 +50,7 @@ let blog = [
 
         <h1>Navigating the Digital Maze: Steps to Choose the Right Website Developer for Your Project</h1>
         
-        <h3>By: <strong>Sulaiman Shafiq</strong> | Date Published : 11 Jan 2023</h3>    
+        <h3>By: <strong>Sulaiman Shafiq</strong> | Date Published : 11 Jan 2024</h3>    
         `  
         ,
         content: `
@@ -100,7 +100,7 @@ let blog = [
 
         <h1>Demystifying SEO: A Beginner's Guide to Ranking in Search Engines</h1>
         
-        <h3>By: <strong>Sulaiman Shafiq</strong> | Date Published : 13 Jan 2023</h3>  
+        <h3>By: <strong>Sulaiman Shafiq</strong> | Date Published : 13 Jan 2024</h3>  
         `,
         content: `
         <p>In the vast landscape of the internet, achieving visibility is paramount for any business or website. This is where SEO, or Search Engine Optimization, comes into play. Understanding the basics of SEO is like unlocking the secret code to rise in search engine rankings and attract the right audience.</p>
@@ -140,6 +140,45 @@ let blog = [
         <a class="button-form-open button-read" onclick="toggleForm()" > Contact Form! <i class="fa fa-arrow-right"></i> </a>
 
         `
+} , 
+{
+    id: "4",
+    title: `
+    <p> #WebDev #Price </p>
+
+    <h1>How much does it cost to build a website in 2024?</h1>
+    
+    <small>By: <strong>Sulaiman Shafiq</strong> | Date Published : 14 Feb 2024</small>  
+    `,
+    content:
+    `<h4>Decoding the Cost of Website Development</h4>
+
+    <p>In today's digital age, a website is not just an optional accessory for businesses; it's a necessity. Whether you're a small startup or a thriving enterprise, having a strong online presence can make or break your success. But how much does it cost to develop and build a website? Let's embark on a journey through the three different avenues of website creation, each with its own unique costs and benefits.</p>
+
+    <h2>1. Do-It-Yourself: Free, But at What Cost?</h2>
+    <p>Picture this: You're determined to save some cash, so you decide to take matters into your own hands and build your website from scratch. After all, there are countless tutorials and website builders out there, right? While the initial cost may be zero, the hidden expenses soon reveal themselves. From countless hours spent learning the ropes to the ongoing maintenance and updates required to keep your site running smoothly, the true cost of a DIY website goes far beyond monetary value. Are you willing to invest your time and energy into mastering the intricacies of web development?</p>
+
+    <p>
+        If you are still determined to go the DIY Route, I have a beginner stack dev that might be usefull. Read about it <a href="./">here.</a>
+    </p>    
+
+    <h2>2. Freelancer: Budget-Friendly, But at What Expense?</h2>
+    <p>Enter the freelance world, where you can find a website developer willing to work for a fraction of the cost of an agency. While this option may seem enticing, it's essential to understand what you're getting for your money. Freelancers often offer basic designs and templates, lacking the custom touches and unique flair that set your website apart from the competition. Additionally, SEO considerations may fall by the wayside, potentially hindering your site's visibility and reach. With prices ranging from RM 1500 to RM 2500, it's a budget-friendly option, but it may come with compromises.</p>
+
+    <h2>3. Agency Partnership: Investing in Excellence</h2>
+    <p>Now, imagine partnering with a reputable agency to bring your website dreams to life. Yes, the upfront cost may be higher, ranging from RM 3000 to RM 15000, but the value you receive in return is immeasurable. Agencies offer highly customizable solutions tailored to your specific needs and goals. From strategic copywriting to custom design and images, every aspect of your website is meticulously crafted to reflect your brand identity and captivate your audience. With full access to a robust system, you have the flexibility to add features, integrate e-commerce functionalities, and scale your website as your business grows. It's not just a website; it's a strategic investment in your company's future.</p>
+
+    <h2>Choose Wisely, Invest Strategically</h2>
+    <p>As you weigh your options, consider not just the price tag but the long-term value of your website. What is your budget, and how important is your website to the success of your company? While DIY solutions may seem cost-effective upfront, they often come with hidden expenses and limitations. Freelancers offer affordability but may lack the expertise and resources to deliver a truly exceptional product. 
+    </p>    
+    <p>
+    On the other hand, partnering with an agency may require a higher investment, but the results speak for themselves: a professional, polished website that sets you apart from the competition and drives real business results. The choice is yours. Choose wisely, invest strategically, and watch your online presence soar.</p>
+    
+    <h2>Contact me today to embark on your digital transformation journey. Your next project begins with a click: 
+
+        <a class="button-form-open button-read" onclick="toggleForm()" > Contact Form! <i class="fa fa-arrow-right"></i> </a>
+
+    `
 }
     ];
 

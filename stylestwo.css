@@ -26,7 +26,6 @@ body {
     list-style: none;
     background-image: url(bgimg3.jpg);
     background-size: cover;
-    text-wrap:balance;
 }
 
 a {
@@ -163,7 +162,6 @@ span {
     height: 100%;
     padding: 0 0;
     text-align: left;
-    text-wrap: balance;
     align-self: flex-start;
 
 }
@@ -173,7 +171,6 @@ span {
     line-height: normal;
     font-weight: 400;
     font-size-adjust: 1.5em;
-    -ms-flex-wrap: balance;
     flex-wrap: wrap;
 
 
@@ -472,7 +469,6 @@ q {
     width: 100%;
     height: 100%;
     text-align: left;
-    text-wrap: balance;
 
 }
 
